@@ -18,5 +18,5 @@ a simple p2p NOSTR relay implementation built on the Pear stack
 6. once relay server is initialized / running, the CLI will present 2 main commands:
    - `create-relay` 
    - `join-relay <relayKey>`
-7. the create-relay command will initialize a new Hypertuna Relay Instance, produce a relayKey and wss url for pointing to your relay instance (i.e. `wss://127.0.0.1:8443/<relayKey>`)
+7. the `create-relay` command will initialize a new Hypertuna Relay Instance, produce a relayKey and wss url for pointing to your relay instance (i.e. `wss://127.0.0.1:8443/<relayKey>`)
   - the CLI will then prompt the user to enter a name and description for your relay. 
